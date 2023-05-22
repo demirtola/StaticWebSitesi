@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 	$(".ds-banner,.ds-main-section").css("margin-top" , mastheadheight);
 
 	$(window).scroll(function(){
-	    if (0) {
+	    if ($(window).scrollTop() >= 10) {
 	        $('.ds-header').addClass('ds-fixed-header');
 	    }
 	    else {
