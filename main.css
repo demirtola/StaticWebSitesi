@@ -14,13 +14,13 @@ Theme Name: Jason Stroff
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------*/
 html {font-family: 'Inter', sans-serif;background-color:#FFF}
-body {font-family: 'Inter', sans-serif;overflow-x: hidden; background-color:#FFF; font-weight:400;font-style: normal; color:#373737; font-size:14px}
+body {font-family: 'Inter', sans-serif;overflow-x: hidden; background: linear-gradient(to bottom, #FFF, #AAA); font-weight:400;font-style: normal; color:#373737; font-size:14px}
 a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
 a{color: #000}
 iframe {border: 0;outline: none;}
 ::-moz-selection {background:#000;text-shadow: none;color:#FFF}
 ::selection {background:#000;text-shadow: none;color:#FFF}
-img {max-width: 100%;border: none;outline: none;height: auto;}
+img {max-width: 100%;border: none;outline: none;height: auto; border-radius: 20px;}
 input,textarea {border-radius: 0;resize: none;}
 ul {padding: 0;margin: 0;}
 @font-face {
@@ -34,7 +34,7 @@ svg,img { max-width: 100%; height: auto; }
 /*-----------------------------------------------------------------
   1. >>> Headr Style
 ----------------------------------------------------------------*/
-.ds-header{ position: fixed; top: 0; width: 100%; z-index: 5; background-color: #FFF; padding: 50px 0;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; }
+.ds-header{ position: fixed; top: 0; width: 100%; z-index: 5; background-color: rgba(255, 255, 255, 0.95); padding: 50px 0;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; }
 .ds-header.ds-fixed-header{ padding:20px 0;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); }
 .ds-header-inner{ display: flex; justify-content: space-between; align-items: center; }
 .ds-logo{ text-transform: uppercase; font-size: 16px; letter-spacing: 1px; color: #000; display: flex; align-items: center; }
@@ -60,7 +60,7 @@ svg,img { max-width: 100%; height: auto; }
 /*-----------------------------------------------------------------
   3. >>> About Style
 ----------------------------------------------------------------*/
-.ds-about-section{ padding-top: 60px; padding-bottom: 120px; }
+.ds-about-section{ padding-top: 60px; padding-bottom: 120px;}
 .ds-heading{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #F26464; padding-bottom: 7px; margin-bottom: 23px; }
 .ds-about-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 
@@ -80,7 +80,7 @@ svg,img { max-width: 100%; height: auto; }
 ----------------------------------------------------------------*/
 .ds-experience-section{ padding-bottom: 120px; }
 .ds-experience-list section{ padding-right: 70px; }
-.ds-experience-list{ padding-top: 15px; }
+.ds-experience-list{ padding-top: 15px; background-color: rgba(255, 255, 255, 0.3); border-radius: 20px;}
 .ds-officename{ font-size: 24px; font-weight: 300; margin-bottom:10px; }
 .ds-experience-list span{ display: block; }
 span.ds-year{ color: #373737; font-size: 14px; font-weight: 700; padding-bottom: 10px; }
@@ -93,7 +93,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
   6. >>> Work Style
 ----------------------------------------------------------------*/
 .ds-work-section{ padding-bottom: 80px; }
-.ds-work-list{ padding-left: 70px; padding-top:40px; padding-right: 70px; background-color:#F6F8FA; margin-bottom: 40px; }
+.ds-work-list{ padding-left: 70px; padding-top:40px; padding-right: 70px; background-color: rgba(255, 255, 255, 0.3); margin-bottom: 40px; border-radius: 20px; }
 .ds-work-list section{ padding-top: 20px; padding-right: 120px; }
 .ds-work-tilte{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; }
 .ds-work-list p{ font-weight: 300; font-size: 18px; line-height: 30px; }
