@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Google Fots -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Main CSS -->
+      <link href="main.css" rel="stylesheet">
+
+
+    <title>Metehan Demirtola</title>
+  </head>
+  <body>
+   
+    <!-- header -->
+    <header class="ds-header" id="site-header">
+        <div class="container">
+            <div class="ds-header-inner">
+              <!-- logo -->
+              <a href="index.html" class="ds-logo">
+                <span>MD</span>Metehan Demirtola
+              </a>
+              <!-- logo -->
+              <!-- social -->
+              <ul class="ds-social">
+			    <a href="index.html" class="ds-button ds-arrow-button"><i class="ri-arrow-left-s-line"></i> Back</a>
+			    <!--<a href="tr.html">
+			      <img src="turkish_flag.png" style="width:24px;height:24px;" >
+				</a></!-->
+                <li><a href="https://github.com/demirtola"><i class="ri-github-fill"></i></a></li>
+                <li><a href="https://steamcommunity.com/id/Mthag/"><i class="ri-steam-fill"></i></a></li>
+				<li><a href="https://discordapp.com/users/mthag#7073"><i class="ri-discord-fill"></i></i></a></li>
+                <li><a href="https://www.linkedin.com/in/metehan-demirtola-564a6318a/"><i class="ri-linkedin-fill"></i></a></li> 
+              </ul>
+              <!-- social -->
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+   
+   <main class="ds-main-section">
+     <div class="container">
+        <div class="ds-work-details-section">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                  <header class="ds-work-det-hed">
+                      <h1 class="ds-work-det-title">Air Plane Simulation</h1>
+                      <span class="ds-work-det-dep">Air Plane Simulation - 2023</span>
+                  </header>
+                  <figure><img src="esp_plane_photo.jpg"></figure>
+                  <div class="ds-work-content-sec">
+                      <div class="row justify-content-center">
+                          <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                              <p>I had the incredible opportunity to intern at Ikartu Dinamik, a prominent company in the industry. On my very first day, I participated in an online meeting where I had the pleasure of meeting Ercan Bey, the esteemed founder of the company. To kickstart my internship experience, he assigned me a captivating project dedicated to deepening my understanding of ESP boards and Unity.</p>
+                              <p>The project I was assigned involved integrating an MPU6050 gyroscope and accelerometer sensor with the ESP board. My task was to read the sensor data using the ESP board and transmit it to Unity through UDP communication. In Unity, I had to develop a project that would receive the data via UDP and utilize it to simulate the rotation of an airplane. Essentially, it was an airplane simulation project, where the sensor data would be used to control the movement of the virtual aircraft.</p>
+                              <h2>Progress of my project</h2>
+							  <ul>
+								  <li>As a part of the project, I designed a PCB circuit that incorporated the ESP-12F module and MPU6050 sensors. Additionally, the circuit included a 3.3V voltage regulator called AMS1117. The purpose of the voltage regulator was to ensure a stable power supply to the components, enabling reliable operation of the ESP-12F and MPU6050 sensors. The aim of the PCB was to serve as the control board, simulating the behavior of an airplane for the Unity project.</li>
+								  <li>After completing the PCB design, I proceeded to build a prototype for the ESP-12F board on a breadboard. Since ordering PCBs from China would have taken a month to arrive, I opted for the breadboard implementation. Once the prototype was assembled, I tested the initial program, and I was delighted to find that everything worked flawlessly.</li>
+								  <li>After ensuring that everything was functioning correctly, my next step was to establish a Wi-Fi connection using the ESP-12F. Once I successfully established the connection, I proceeded to develop a program that would read data from the MPU6050 sensor and transmit it to my computer via UDP communication. To test the program, I set up a UDP test server on my computer and initiated the communication and the program flawlessly transmitted the gyroscope data without any issues.</li>
+								  <li>Finally, I proceeded to create a Unity project that featured an airplane model. To integrate the sensor data into the simulation, I developed a script that acted as a UDP server, receiving the gyroscope data and dynamically rotating the plane accordingly. After thorough testing, I was thrilled to observe that everything worked seamlessly. With the successful integration of the ESP-12F, MPU6050, and Unity, the project was successfully completed.</li>
+                              </ul>
+							      <iframe width="100%" height="415" src="https://www.youtube.com/embed/jVAsRnrK-wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						  </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+     </div>
+   </main>
+
+   <!--  footer -->
+   <footer class="ds-footer text-center">
+     <div class="container">
+        <section>
+          <h4>Feel free to contact me</h4>
+          <a href="mailto:metehandemirtola@hotmail.com" class="ds-button">Mail me</a>
+		  <p>metehandemirtola@hotmail.com</p>
+        </section>
+     </div>
+   </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="main.js"></script>
+  </body>
+</html>
