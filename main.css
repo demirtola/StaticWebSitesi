@@ -29,7 +29,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {back
 /* 1.2 Typography */
 h1,h2,h3,h4,h5,h6 {font-family: 'Inter', sans-serif;}
 figure{ margin: 0 }
-svg,img { max-width: 100%; height: auto; }
+svg,img { max-width: 70%; height: auto; margin: auto; display: block;}
 
 /*-----------------------------------------------------------------
   1. >>> Headr Style
@@ -139,7 +139,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	.ds-header,.ds-header.ds-fixed-header{ padding: 15px 0; }
 	.ds-banner,.ds-about-section,.ds-skills-section,.ds-experience-section,.ds-work-section,.ds-work-details-section{ padding-left: 10px; padding-right: 10px; }
 	.ds-logo{ font-size: 0; }
-	.ds-banner figure{ padding: 30px 0; }
+	.ds-banner figure{ padding: 30px 0;}
 	.ds-banner section{ padding-left: 0;padding-right: 0; }
 	.ds-banner section h1 span{ padding-bottom: 0; }
 	.ds-banner section h1,.ds-work-det-title{ font-size: 30px; line-height: 40px; }
