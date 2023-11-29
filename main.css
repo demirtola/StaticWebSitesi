@@ -14,7 +14,8 @@ Theme Name: Jason Stroff
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------*/
 html {font-family: 'Inter', sans-serif;background-color:#FFF}
-body {font-family: 'Inter', sans-serif;overflow-x: hidden; background: linear-gradient(180deg,rgba(255, 255, 255, 0.5) 5%,rgba(117, 255, 255, 0.5) 25%,rgba(255, 50, 50, 0.5) 45%,rgba(0, 99, 246, 0.5) 100%); font-weight:400;font-style: normal; color:#373737; font-size:14px}
+body {font-family: 'Inter', sans-serif;overflow-x: hidden; background: linear-gradient(to bottom, #FFF, #AAA); font-weight:400;font-style: normal; color:#373737; font-size:14px; zoom: 95%;}
+
 a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
 a{color: #000}
 iframe {border: 0;outline: none;}
@@ -83,7 +84,7 @@ svg,img { max-width: 70%; height: auto; margin: auto; display: block;}
 ----------------------------------------------------------------*/
 .ds-experience-section{ padding-bottom: 120px; }
 .ds-experience-list section{ padding-right: 70px; }
-.ds-experience-list{ padding-top: 15px; background-color: rgba(255, 255, 255, 0.3); border-radius: 20px;}
+.ds-experience-list{ padding-top: 15px; background-color: rgba(255, 255, 255, 0.3); border-radius: 20px; margin-bottom:40px;}
 .ds-officename{ font-size: 24px; font-weight: 300; margin-bottom:10px; }
 .ds-experience-list span{ display: block; }
 span.ds-year{ color: #373737; font-size: 14px; font-weight: 700; padding-bottom: 10px; }
