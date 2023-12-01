@@ -62,9 +62,9 @@ svg,img { max-width: 70%; height: auto; margin: auto; display: block;}
   3. >>> About Style
 ----------------------------------------------------------------*/
 .ds-about-section{ padding-top: 60px; padding-bottom: 120px;}
-.ds-heading{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #F26464; padding-bottom: 7px; margin-bottom: 23px;}
+.ds-heading{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 20px; border-bottom: 3px solid #F26464; padding-bottom: 7px; margin-bottom: 23px;}
 .ds-heading3{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #F26464; padding-bottom: 7px; margin-bottom: 23px; margin-top:15%;}
-.ds-heading2{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #F26464; padding-bottom: 7px; margin-bottom: 23px; margin-left:15px; margin-top:5px;}
+.ds-heading2{ display: inline-block; font-weight: 500; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 18px; border-bottom: 3px solid #F26464; padding-bottom: 7px; margin-bottom: 23px; margin-left:15px; margin-top:5px;}
 .ds-about-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 
 .ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#000000; padding:17px 30px;  border: 2px solid #F26464;border-radius: 60px; background-color: rgba(255, 255, 255, 0.5)}
@@ -85,9 +85,9 @@ svg,img { max-width: 70%; height: auto; margin: auto; display: block;}
 .ds-experience-section{ padding-bottom: 120px; }
 .ds-experience-list section{ padding-right: 70px; }
 .ds-experience-list{ padding-top: 15px; background-color: rgba(255, 255, 255, 0.3); border-radius: 20px; margin-bottom:40px;}
-.ds-officename{ font-size: 24px; font-weight: 300; margin-bottom:10px; }
+.ds-officename{ font-size: 30px; font-weight: 500; margin-bottom:10px; }
 .ds-experience-list span{ display: block; }
-span.ds-year{ color: #373737; font-size: 14px; font-weight: 700; padding-bottom: 10px; }
+span.ds-year{ color: #373737; font-size: 18px; font-weight: 400; padding-bottom: 10px; }
 span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-bottom: 30px; }
 .ds-experience-list p{ font-size: 16px; line-height: 24px; font-weight: 300; }
 .ds-experience-list ul{ list-style: none; padding: 0; margin: 0; padding-top: 10px; }
