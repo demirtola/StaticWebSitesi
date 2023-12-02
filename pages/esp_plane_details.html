@@ -15,9 +15,9 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- Main CSS -->
-      <link href="main.css" rel="stylesheet">
+      <link href="../css/main.css" rel="stylesheet">
 
-
+	<link rel="icon" type="image/png" href="https://files.demirtola.net/icon.png"/>
     <title>Metehan Demirtola</title>
   </head>
   <body>
@@ -27,13 +27,13 @@
         <div class="container">
             <div class="ds-header-inner">
               <!-- logo -->
-              <a href="index.html" class="ds-logo">
+              <a href="../index.html" class="ds-logo">
                 <span>MD</span>Metehan Demirtola
               </a>
               <!-- logo -->
               <!-- social -->
               <ul class="ds-social">
-			    <a href="index.html" class="ds-button ds-arrow-button"><i class="ri-arrow-left-s-line"></i> Back</a>
+			    <a href="../index.html" class="ds-button ds-arrow-button"><i class="ri-arrow-left-s-line"></i> Back</a>
 			    <!--<a href="tr.html">
 			      <img src="turkish_flag.png" style="width:24px;height:24px;" >
 				</a></!-->
@@ -54,24 +54,23 @@
             <div class="row justify-content-center">
               <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
                   <header class="ds-work-det-hed">
-                      <h1 class="ds-work-det-title">Line_follower</h1>
-                      <span class="ds-work-det-dep">Line_follower - 2018-2020</span>
+                      <h1 class="ds-work-det-title">Air Plane Simulation</h1>
+                      <span class="ds-work-det-dep">Air Plane Simulation - 2023</span>
                   </header>
-                  <figure><img src="line_follower_foto.jpg"></figure>
+                  <figure><img src="https://files.demirtola.net/esp_plane_photo.jpg"></figure>
                   <div class="ds-work-content-sec">
                       <div class="row justify-content-center">
                           <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
-                              <p>During my time in high school, our teachers assigned us the task of building a line follower robot. This project served as our exam project and came right after our Arduino lessons. As a result, we formed groups, and my best friend, Onur Mutlu, and I began conducting research and exploring existing projects related to line followers. Through our efforts, we managed to program a line follower, although its performance was not exceptional. Nevertheless, we were proud of our accomplishment, as it demonstrated our determination and the skills we had acquired.</p>
-                              <p>Two or three weeks later, my friend Onur stumbled upon a PID-controlled line follower and proposed that we should give it a try. As high school students, I had never heard of PID before, and when I searched online, I came across numerous formulas that seemed complex and difficult to comprehend. Nevertheless, we uploaded the code and conducted a test. To our astonishment, the results were remarkable. The line follower flawlessly followed the line, and this experience helped us grasp the principles of PID control. It was a significant breakthrough in our understanding of advanced robotics concepts.</p>
-                              <h2>Improving</h2>
-                              <p>After witnessing the effectiveness of PID control, we decided to participate in line follower robot competitions. In these competitions, the organizers provided us with the details of the track, and we recreated the same track in our high school for testing purposes. Despite our lack of experience, we put in tremendous effort and managed to complete the line follower track. We then focused on improving the speed of our robot and eagerly joined the competitions. It was an exhilarating experience, and my line follower successfully completed the track without any mistakes. However, it didn't secure a position in the top five. Nevertheless, the journey was incredibly rewarding, and I learned valuable lessons along the way.</p>
-							  <p>Here are some specs of our line follower.</p>
-                              <ul>
-							    <li>QTR8-a line follower sensor, Arduino nano, MZ-80 object sensor and a motor driver used.</li>
-                                <li>Decent speed with precise and accurate line following capabilities.</li>
-                                <li>Designed and programmed by high school students.</li>
+                              <p>I had the incredible opportunity to intern at Ikartu Dinamik, a prominent company in the industry. On my very first day, I participated in an online meeting where I had the pleasure of meeting Ercan Bey, the esteemed founder of the company. To kickstart my internship experience, he assigned me a captivating project dedicated to deepening my understanding of ESP boards and Unity.</p>
+                              <p>The project I was assigned involved integrating an MPU6050 gyroscope and accelerometer sensor with the ESP board. My task was to read the sensor data using the ESP board and transmit it to Unity through UDP communication. In Unity, I had to develop a project that would receive the data via UDP and utilize it to simulate the rotation of an airplane. Essentially, it was an airplane simulation project, where the sensor data would be used to control the movement of the virtual aircraft.</p>
+                              <h2>Progress of my project</h2>
+							  <ul>
+								  <li>As a part of the project, I designed a PCB circuit that incorporated the ESP-12F module and MPU6050 sensors. Additionally, the circuit included a 3.3V voltage regulator called AMS1117. The purpose of the voltage regulator was to ensure a stable power supply to the components, enabling reliable operation of the ESP-12F and MPU6050 sensors. The aim of the PCB was to serve as the control board, simulating the behavior of an airplane for the Unity project.</li>
+								  <li>After completing the PCB design, I proceeded to build a prototype for the ESP-12F board on a breadboard. Since ordering PCBs from China would have taken a month to arrive, I opted for the breadboard implementation. Once the prototype was assembled, I tested the initial program, and I was delighted to find that everything worked flawlessly.</li>
+								  <li>After ensuring that everything was functioning correctly, my next step was to establish a Wi-Fi connection using the ESP-12F. Once I successfully established the connection, I proceeded to develop a program that would read data from the MPU6050 sensor and transmit it to my computer via UDP communication. To test the program, I set up a UDP test server on my computer and initiated the communication and the program flawlessly transmitted the gyroscope data without any issues.</li>
+								  <li>Finally, I proceeded to create a Unity project that featured an airplane model. To integrate the sensor data into the simulation, I developed a script that acted as a UDP server, receiving the gyroscope data and dynamically rotating the plane accordingly. After thorough testing, I was thrilled to observe that everything worked seamlessly. With the successful integration of the ESP-12F, MPU6050, and Unity, the project was successfully completed.</li>
                               </ul>
-							      <iframe width="100%" height="415" src="https://www.youtube.com/embed/6_yzf33XAgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							      <iframe width="100%" height="415" src="https://www.youtube.com/embed/jVAsRnrK-wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						  </div>
                       </div>
                   </div>
@@ -102,6 +101,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-    <script src="main.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

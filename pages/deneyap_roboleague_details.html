@@ -15,9 +15,9 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- Main CSS -->
-      <link href="main.css" rel="stylesheet">
+      <link href="../css/main.css" rel="stylesheet">
 
-
+	<link rel="icon" type="image/png" href="https://files.demirtola.net/icon.png"/>
     <title>Metehan Demirtola</title>
   </head>
   <body>
@@ -27,13 +27,13 @@
         <div class="container">
             <div class="ds-header-inner">
               <!-- logo -->
-              <a href="index.html" class="ds-logo">
+              <a href="../index.html" class="ds-logo">
                 <span>MD</span>Metehan Demirtola
               </a>
               <!-- logo -->
               <!-- social -->
               <ul class="ds-social">
-			    <a href="index.html" class="ds-button ds-arrow-button"><i class="ri-arrow-left-s-line"></i> Back</a>
+			    <a href="../index.html" class="ds-button ds-arrow-button"><i class="ri-arrow-left-s-line"></i> Back</a>
 			    <!--<a href="tr.html">
 			      <img src="turkish_flag.png" style="width:24px;height:24px;" >
 				</a></!-->
@@ -54,23 +54,26 @@
             <div class="row justify-content-center">
               <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
                   <header class="ds-work-det-hed">
-                      <h1 class="ds-work-det-title">Air Plane Simulation</h1>
-                      <span class="ds-work-det-dep">Air Plane Simulation - 2023</span>
+                      <h1 class="ds-work-det-title">Teknofest Deneyap Roboleague</h1>
+                      <span class="ds-work-det-dep">Deneyap Roboleague - 31/08/2023 - 03/09/2023</span>
                   </header>
-                  <figure><img src="esp_plane_photo.jpg"></figure>
+                  <figure><img src="https://files.demirtola.net/AKUR_picture.jpg"></figure>
                   <div class="ds-work-content-sec">
                       <div class="row justify-content-center">
                           <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
-                              <p>I had the incredible opportunity to intern at Ikartu Dinamik, a prominent company in the industry. On my very first day, I participated in an online meeting where I had the pleasure of meeting Ercan Bey, the esteemed founder of the company. To kickstart my internship experience, he assigned me a captivating project dedicated to deepening my understanding of ESP boards and Unity.</p>
-                              <p>The project I was assigned involved integrating an MPU6050 gyroscope and accelerometer sensor with the ESP board. My task was to read the sensor data using the ESP board and transmit it to Unity through UDP communication. In Unity, I had to develop a project that would receive the data via UDP and utilize it to simulate the rotation of an airplane. Essentially, it was an airplane simulation project, where the sensor data would be used to control the movement of the virtual aircraft.</p>
-                              <h2>Progress of my project</h2>
-							  <ul>
-								  <li>As a part of the project, I designed a PCB circuit that incorporated the ESP-12F module and MPU6050 sensors. Additionally, the circuit included a 3.3V voltage regulator called AMS1117. The purpose of the voltage regulator was to ensure a stable power supply to the components, enabling reliable operation of the ESP-12F and MPU6050 sensors. The aim of the PCB was to serve as the control board, simulating the behavior of an airplane for the Unity project.</li>
-								  <li>After completing the PCB design, I proceeded to build a prototype for the ESP-12F board on a breadboard. Since ordering PCBs from China would have taken a month to arrive, I opted for the breadboard implementation. Once the prototype was assembled, I tested the initial program, and I was delighted to find that everything worked flawlessly.</li>
-								  <li>After ensuring that everything was functioning correctly, my next step was to establish a Wi-Fi connection using the ESP-12F. Once I successfully established the connection, I proceeded to develop a program that would read data from the MPU6050 sensor and transmit it to my computer via UDP communication. To test the program, I set up a UDP test server on my computer and initiated the communication and the program flawlessly transmitted the gyroscope data without any issues.</li>
-								  <li>Finally, I proceeded to create a Unity project that featured an airplane model. To integrate the sensor data into the simulation, I developed a script that acted as a UDP server, receiving the gyroscope data and dynamically rotating the plane accordingly. After thorough testing, I was thrilled to observe that everything worked seamlessly. With the successful integration of the ESP-12F, MPU6050, and Unity, the project was successfully completed.</li>
+                              <p>After completing our second year of university, we stumbled upon an exciting opportunity at Teknofest known as the "Deneyap Roboleague." My friends and I were truly enthusiastic about this competition because it aligned perfectly with our field of study. We believed that our skills and knowledge made us strong contenders for victory. Consequently, we eagerly participated in an online exam to showcase our team's capabilities. Upon successfully passing the exam, we eagerly made our way to the "Deneyap Roboleague" competition.</p>
+                              <p>The competition spanned four exhilarating days. On the first day, we immersed ourselves in the Teknofest exhibits and shows. Afterward, we returned to the competition area, where we were introduced to the challenging parkour course that our robot would need to conquer. A thorough explanation of the rules followed, and the organizers provided us with the essential materials for our robot.</p>
+                              <h2>2th and 3th days</h2>
+                              <p>After receiving the materials, three of my friends promptly set to work on constructing our robot. Meanwhile, another friend began crafting a specialized controller for our vehicle, and my role was to take charge of the programming tasks. At the end of the day, our team successfully assembled the robot, and we had achieved seamless communication between the robot and our controller.</p>
+							  <p>On the third day of the competition, we embarked on the task of building a robot arm designed to knock down a target. Simultaneously, we rigorously tested our robot for any potential issues, resolving each one meticulously. With everything functioning smoothly, our robot arm was ready for action. We seamlessly integrated it with our car, undertook the necessary programming, and brought all components together to complete our car.</p>
+							  <p>Here are some specifications of our car:</p>
+                              <ul>
+							    <li><strong>Microcontroller:</strong> Our car is powered by the "Deneyap" Board, serving as the central microcontroller for precise control and automation.</li>
+                                <li><strong>Communication:</strong> We have implemented communication through ESP-NOW, ensuring efficient and reliable data exchange between our controller and the car.</li>
+                                <li><strong>Control:</strong> The controls are exceptionally smooth and precise, allowing for accurate maneuvering and operation.</li>
+								<li><strong>Robot Arm:</strong> An impressive feature of our car is the incorporation of a robot arm mounted on the rear, enhancing its versatility and functionality.</li>
                               </ul>
-							      <iframe width="100%" height="415" src="https://www.youtube.com/embed/jVAsRnrK-wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							      <iframe width="100%" height="415" src="https://www.youtube.com/embed/nj_yt0rnVGs?si=UFBDiUzctHMmaONr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						  </div>
                       </div>
                   </div>
