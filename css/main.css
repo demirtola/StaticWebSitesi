@@ -99,7 +99,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-work-section{ padding-bottom: 80px; }
 .ds-work-list{ padding-left: 70px; padding-top:40px; padding-right: 70px; background-color: rgba(255, 255, 255, 0.3); margin-bottom: 40px; border-radius: 20px; text-align: justify;}
 .ds-work-list section{ padding-top: 20px; padding-right: 120px; }
-.ds-work-tilte{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; }
+.ds-work-tilte{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; text-align: left;}
 .ds-work-list p{ font-weight: 300; font-size: 18px; line-height: 30px; }
 .ds-work-list .ds-button{ margin-top: 20px; margin-bottom: 20px;}
 
